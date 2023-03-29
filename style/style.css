@@ -135,13 +135,19 @@ p {
     border: 1px solid #97d848;
 }
 
-
+:p
 
 .navbar{
     height: 70px;
+    margin-bottom: 5px;
 }
 
 #btn_nav{
     height: 40px;
     width: 150px;
+}
+
+.carousel-item{
+    width: 100px;
+    height: 400px;
 }
