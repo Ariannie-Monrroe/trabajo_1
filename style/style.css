@@ -137,5 +137,11 @@ p {
 
 
 
+.navbar{
+    height: 70px;
+}
 
-
+#btn_nav{
+    height: 40px;
+    width: 150px;
+}
