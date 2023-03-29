@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 
 
-body {
+/* body {
     height: 100%;
     font-family: 'Noto Sans', sans-serif;
     background-color: #1d982c;
@@ -133,7 +133,7 @@ p {
 .formulario textarea:focus {
     outline: 0;
     border: 1px solid #97d848;
-}
+} */
 
 :p
 
@@ -146,16 +146,23 @@ p {
     height: 40px;
     width: 150px;
 }
-
+/* 
 .carousel-inner{
-    /* border: solid blue; */
+
     height: 250px;
+} */
+
+#carouselExample{
+    display: flex;
 }
 
-/* #carouselExample{
+.carousel-inner img{
+    justify-content: center;
+    height: 250px;
+    /* width: 1024px; */
+    width: 100%;
+}
 
-    border: solid red;
-} */
 /* #imgCr{
     width: 487px;
     height: 50px;
