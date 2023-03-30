@@ -150,6 +150,7 @@ p {
 
 #carouselExample{
     display: flex;
+    /* margin-bottom: 50px; */
 }
 
 .carousel-inner img{
@@ -161,4 +162,19 @@ p {
 
 .container-fluid{
     background-color: rgb(255, 255, 255);
+}
+
+#cardbox{
+    background-color: aqua;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+
+
+.card-img-top{
+    height: 50%;
 }
