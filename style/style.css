@@ -135,9 +135,9 @@ p {
     border: 1px solid #97d848;
 } */
 
-:p
+/* :p */
 
-.navbar{
+.navbar {
     height: 70px;
     margin-bottom: 5px;
 }
@@ -159,3 +159,6 @@ p {
     width: 100%;
 }
 
+.container-fluid{
+    background-color: rgb(255, 255, 255);
+}
