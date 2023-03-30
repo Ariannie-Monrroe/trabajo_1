@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 
 
-/* body {
+/*body {
     height: 100%;
     font-family: 'Noto Sans', sans-serif;
     background-color: #1d982c;
@@ -165,7 +165,7 @@ p {
 }
 
 #cardbox{
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 1000px;
     width: 100%;
     display: flex;
