@@ -8,20 +8,18 @@
     background-color: rgba(7, 159, 7, 0.603);
     display: flex;
     justify-content: center;
+    
 }
 .container_form{
     font-size: 17px;
     
-    margin-top: 80px;
-    height: 780px;
-    width: 660px;
-    padding-left: 190px;
+    
     border-radius: 10%;
     background-color: rgb(240, 245, 239);
 }
 .container_form input{
     border-color: rgb(14, 139,14 );
-    width: 290px;
+    
 
 }
 #obl{
@@ -31,15 +29,19 @@
 
     background-color: rgb(14, 139, 14);
     border: rgb(14, 139, 14);
-    width: 290px;
-    height: 58px;
+    margin-bottom: 30px;
     font-size: 20px;
     
 }
-#checkTerms{
-    width: 17px;
+.container_input{
+    padding-left: 130px;
+    justify-content: center;
+    border-color: rgb(14, 139, 14);
 }
-
+#Inicio{
+    border: solid rgb(14, 139, 14);
+    margin-top: 60px ;
+}
 
 /* Fin Registro */
 

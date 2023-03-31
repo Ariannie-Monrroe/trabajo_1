@@ -13,59 +13,63 @@
 </head>
 
 <body id="body_registro">
-    <div class="container_form ">
+    <div class="d-flex col-md-3 container_form "id="Inicio">
 
-        <form class="row g-1 mt-3">
-            <div class="col-5 mt-3">
-                <label for="nombreImput" class="form-label">Nombre</label>
-                <label id="obl">*</label>
-                <input type="text" class="form-control" id="nombreImput" placeholder="Ingrese su nombre" required="obligatorio">
-            </div>
-            <p></p>
-            <div class="col-5">
-                <label for="inputPass" class="form-label">Contrasena</label>
-                <label id="obl">*</label>
-                <input type="password" class="form-control" id="inputPass" placeholder="**************" required="obligatorio">
-            </div>
-            <p></p>
-            <div class="col-5">
-                <label for="inputPassR" class="form-label">Confirmar Contrasena</label>
-                <label id="obl">*</label>
-                <input type="password" class="form-control" id="inputPassR" placeholder="**************" required="obligatorio">
-            </div>
-            <p></p>
+        <div class="container_input">
 
-            <div class="col-5">
-                <label for="inputMailAdress" class="form-label">Email</label>
-                <label id="obl">*</label>
-                <input type="email" class="form-control" id="inputMailAdress" placeholder="Ingrese su email" required="obligatorio">
-            </div>
-            <p></p>
-            <div class="col-5">
-                <label for="inputPhone" class="form-label">Telefono</label>
-                <input type="text" class="form-control" id="inputPhono" placeholder="+569 1234 5678">
-            </div>
-            <p></p>
-            <div class="col-5">
-                <label for="inputAdress" class="form-label">Direccion</label>
-                <label id="obl">*</label>
-                <input type="email" class="form-control" id="inputAdress" placeholder="Direccion" required="obligatorio">
-            </div>
-            <p></p>
-            <div class="col-6 ">
-                <div class="form-check ">
+            <form class="row g-1 mt-3">                
 
-                    <input type="checkbox" id="checkTerms" class="form-check-input">
-                    <label for="checkTerms" class="form-check-label" required="obligatorio">Acepto los terminos</label>
+                <div class="col-7 mt-3">
+                    <label for="nombreImput" class="form-label">Nombre</label>
                     <label id="obl">*</label>
+                    <input type="text" class="form-control" id="nombreImput" placeholder="Ingrese su nombre" required="obligatorio">
                 </div>
-            </div>
-            <p></p>
-            <div class="col-5">
-                <button type="submit" class="btn btn-success">Registrate</button>
-            </div>
-
-        </form>
+                <p></p>
+                <div class="col-7">
+                    <label for="inputPass" class="form-label">Contrasena</label>
+                    <label id="obl">*</label>
+                    <input type="password" class="form-control" id="inputPass" placeholder="**************" required="obligatorio">
+                </div>
+                <p></p>
+                <div class="col-7">
+                    <label for="inputPassR" class="form-label">Confirmar Contrasena</label>
+                    <label id="obl">*</label>
+                    <input type="password" class="form-control" id="inputPassR" placeholder="**************" required="obligatorio">
+                </div>
+                <p></p>
+    
+                <div class="col-7">
+                    <label for="inputMailAdress" class="form-label">Email</label>
+                    <label id="obl">*</label>
+                    <input type="email" class="form-control" id="inputMailAdress" placeholder="Ingrese su email" required="obligatorio">
+                </div>
+                <p></p>
+                <div class="col-7">
+                    <label for="inputPhone" class="form-label">Telefono</label>
+                    <input type="text" class="form-control" id="inputPhono" placeholder="+569 1234 5678">
+                </div>
+                <p></p>
+                <div class="col-7">
+                    <label for="inputAdress" class="form-label">Direccion</label>
+                    <label id="obl">*</label>
+                    <input type="email" class="form-control" id="inputAdress" placeholder="Direccion" required="obligatorio">
+                </div>
+                <p></p>
+                <div class="col-9 ">
+                    <div class="form-check">
+    
+                        <input type="checkbox" id="checkTerms" class="form-check-input">
+                        <label for="checkTerms" class="form-check-label" required="obligatorio">Acepto los terminos</label>
+                        <label id="obl">*</label>
+                    </div>
+                </div>
+                <p></p>
+                <div class="col-2 ">
+                    <button type="submit" class="btn btn-success">Registrate</button>
+                </div>
+    
+            </form>
+        </div>
 
     </div>
 </body>
