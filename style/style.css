@@ -1,141 +1,49 @@
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+@import "custom";
+@import "~bootstrap/scss/bootstrap";
 
 
-/*body {
-    height: 100%;
-    font-family: 'Noto Sans', sans-serif;
-    background-color: #1d982c;
-}
 
-
-.contact_form {
-    width: 460px;
-    height: auto;
-    margin: 80px auto;
-    border-radius: 10px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    background-color: #fbfbfb;
-    padding-left: 30px;
-}
-
-
-input {
-    font-size: 25px;
-    background-color: #fbfbfb;
-    width: 408px;
-    height: 40px;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #1d982c;
-    margin-top: 10px;
-    padding-left: 10px;
-    margin-bottom: 20px;
-}
-
-
-textarea {
-    background-color: #fbfbfb;
-    width: 405px;
-    height: 150px;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #1d982c;
-    margin-top: 10px;
-    padding-left: 10px;
-    margin-bottom: 20px;
-    padding-top: 15px;
-}
-
-
-label {
-    display: block;
-    float: center;
-}
-
-
-button {
+/* Para Registro */
+#body_registro{
+    background-color: rgba(7, 159, 7, 0.603);
     display: flex;
     justify-content: center;
-
-    height: 105px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    text-transform: uppercase;
     
-    background-color: #1d982c;
-    border-color: #1d982c;
-    border-style: solid;
-    border-radius: 10px;
-    width: 420px;
-    cursor: pointer;
+}
+.container_form{
+    font-size: 17px;
+    
+    
+    border-radius: 10%;
+    background-color: rgb(240, 245, 239);
+}
+.container_form input{
+    border-color: rgb(14, 139,14 );
+    
+
+}
+#obl{
+    color: rgb(14, 139, 14);
+}
+.container_form button{
+
+    background-color: rgb(14, 139, 14);
+    border: rgb(14, 139, 14);
+    margin-bottom: 30px;
+    font-size: 20px;
+    
+}
+.container_input{
+    padding-left: 130px;
+    justify-content: center;
+    border-color: rgb(14, 139, 14);
+}
+#Inicio{
+    /*   */
+    margin-top: 60px ;
 }
 
-
-button p {
-
-    color: #fff;
-}
-
-
-span {
-    color: #1d982c;
-}
-
-
-.aviso {
-    font-size: 13px;
-    color: #0e0e0e;
-}
-
-
-h1 {
-    font-size: 50px;
-    text-align: letf;
-    padding-bottom: 20px;
-    color: #1d982c;
-}
-
-
-h3 {
-    font-size: 16px;
-    padding-bottom: 30px;
-    color: #0e0e0e;
-}
-
-
-p {
-    font-size: 35px;
-    color: #0e0e0e;
-}
-
-
-::-webkit-input-placeholder {
-    color: #a8a8a8;
-}
-
-
-::-webkit-textarea-placeholder {
-    color: #a8a8a8;
-}
-
-
-.formulario input:focus {
-    outline: 0;
-    border: 1px solid #97d848;
-}
-
-
-.formulario textarea:focus {
-    outline: 0;
-    border: 1px solid #97d848;
-} */
-
-/* :p */
+/* Fin Registro */
 
 .navbar {
     height: 85px;
