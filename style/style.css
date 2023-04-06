@@ -4,44 +4,63 @@
 
 
 /* Para Registro */
-#body_registro{
-    background-color: rgba(7, 159, 7, 0.603);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#registro_body {
+    height: 100vh;
     display: flex;
+    align-items: center;
     justify-content: center;
-    
+    /* background: #DEE5E5; */
 }
-.container_form{
-    font-size: 17px;
-    
-    
-    border-radius: 10%;
-    background-color: rgb(240, 245, 239);
-}
-.container_form input{
-    border-color: rgb(14, 139,14 );
-    
+#registro_body label{
+    color: #DEE5E5;
 
 }
-#obl{
-    color: rgb(14, 139, 14);
-}
-.container_form button{
+#registro_body h1{
+    color: #DEE5E5;
 
-    background-color: rgb(14, 139, 14);
-    border: rgb(14, 139, 14);
-    margin-bottom: 30px;
+}
+.obl {
+    color: #A5D0A8;
+}
+.contenido {
+    width: 460px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #110B11;
+    
+}
+
+.login h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+    color: #DEE5E5;
+}
+
+.login form {
     font-size: 20px;
-    
 }
-.container_input{
-    padding-left: 130px;
-    justify-content: center;
-    border-color: rgb(14, 139, 14);
+
+.login form .form-group {
+    margin-bottom: 12px;
 }
-#Inicio{
-    border: solid rgb(14, 139, 14);
-    margin-top: 60px ;
+
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
 }
+
+
+
+
+
 
 /* Fin Registro */
 
@@ -50,20 +69,22 @@
     margin-bottom: 5px;
 }
 
-.navbarSupportedContent{
+.navbarSupportedContent {
     display: flex;
     justify-content: center;
 
 
 }
 
-#namePag{
+#namePag {
     font-size: 50px;
     font-family:fantasy;
     color: #B0D59F;
+    font-family: fantasy;
+    /* justify-content: center; */
 }
 
-#btn_nav{
+#btn_nav {
 
     height: 50px;
     width: 60px;
@@ -72,28 +93,28 @@
     padding-top: 10px;
 }
 
-.material-icons{
+.material-icons {
     justify-content: center;
 }
 
 
-#carouselExample{
+#carouselExample {
     display: flex;
     /* margin-bottom: 50px; */
 }
 
-.carousel-inner img{
+.carousel-inner img {
     justify-content: center;
     height: 250px;
     /* width: 1024px; */
     width: 100%;
 }
 
-.container-fluid{
+.container-fluid {
     background-color: rgb(255, 255, 255);
 }
 
-#cardbox{
+#cardbox {
     /* background-color: aqua; */
     height: 1000px;
     width: 100%;
@@ -104,10 +125,10 @@
 }
 
 
-.card-img-top{
+.card-img-top {
     height: 50%;
 }
 
-.me-9{
+.me-9 {
     margin-right: 270px;
 }
