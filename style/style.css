@@ -97,6 +97,20 @@
     justify-content: center;
 }
 
+.nav-item{
+    color: #A5D0A8;
+}
+
+#dropM{
+    width: 250px;
+    height: 150px;
+}
+
+.carrito{
+    margin-left: 520px;
+}
+
+
 
 #carouselExample {
     display: flex;
