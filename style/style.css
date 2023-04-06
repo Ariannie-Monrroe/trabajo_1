@@ -63,7 +63,7 @@
 /* NavBar */
 
 .navbar {
-    height: 85px;
+    height: 90px;
     margin-bottom: 5px;
 }
 
@@ -102,7 +102,15 @@
 }
 
 .carrito {
-    margin-left: 85vh;
+    margin-left: 70vh;
+}
+
+.navbar-nav{
+    background-color: #212529;
+}
+
+#containerNav{
+    background-color: #212529;
 }
 /* Fin NavBar */
 
@@ -113,7 +121,7 @@
 }
 
 .slide img{
-    height:90vh;
+    height:65vh;
 }
 
 /* Fin Carrusel */
