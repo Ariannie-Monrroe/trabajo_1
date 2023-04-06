@@ -1,8 +1,5 @@
 @import "custom";
 @import "~bootstrap/scss/bootstrap";
-
-
-
 /* Para Registro */
 
 * {
@@ -18,24 +15,28 @@
     justify-content: center;
     /* background: #DEE5E5; */
 }
-#registro_body label{
+
+#registro_body label {
     color: #DEE5E5;
 
 }
-#registro_body h1{
+
+#registro_body h1 {
     color: #DEE5E5;
 
 }
+
 .obl {
     color: #A5D0A8;
 }
+
 .contenido {
     width: 460px;
     height: min-content;
     padding: 20px;
     border-radius: 12px;
     background-color: #110B11;
-    
+
 }
 
 .login h1 {
@@ -56,13 +57,10 @@
     font-size: 20px;
     margin-top: 15px;
 }
-
-
-
-
-
-
 /* Fin Registro */
+
+
+/* NavBar */
 
 .navbar {
     height: 85px;
@@ -72,20 +70,17 @@
 .navbarSupportedContent {
     display: flex;
     justify-content: center;
-
-
 }
 
 #namePag {
     font-size: 50px;
-    font-family:fantasy;
+    font-family: fantasy;
     color: #B0D59F;
     font-family: fantasy;
     /* justify-content: center; */
 }
 
 #btn_nav {
-
     height: 50px;
     width: 60px;
     border-radius: 50%;
@@ -97,36 +92,35 @@
     justify-content: center;
 }
 
-.nav-item{
+.nav-item {
     color: #A5D0A8;
 }
 
-#dropM{
+#dropM {
     width: 250px;
     height: 150px;
 }
 
-.carrito{
-    margin-left: 520px;
+.carrito {
+    margin-left: 85vh;
+}
+/* Fin NavBar */
+
+/* Carrusel */
+
+.slide{
+    margin-top: 10px;
 }
 
-
-
-#carouselExample {
-    display: flex;
-    /* margin-bottom: 50px; */
+.slide img{
+    height:90vh;
 }
 
-.carousel-inner img {
-    justify-content: center;
-    height: 250px;
-    /* width: 1024px; */
-    width: 100%;
-}
+/* Fin Carrusel */
 
 .container-fluid {
     background-color: rgb(255, 255, 255);
-}
+} */
 
 #cardbox {
     /* background-color: aqua; */
