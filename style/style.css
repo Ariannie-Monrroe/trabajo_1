@@ -5,25 +5,62 @@
 
 /* Para Registro */
 
-
-
-
-
-
-#obl {
-    color: rgb(14, 139, 14);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#Inicio {
+#registro_body {
+    height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    min-height: 100vh;
-    background-color: #fefee3;  
+    justify-content: center;
+    /* background: #DEE5E5; */
+}
+#registro_body label{
+    color: #DEE5E5;
 
 }
+#registro_body h1{
+    color: #DEE5E5;
+
+}
+.obl {
+    color: #A5D0A8;
+}
+.contenido {
+    width: 460px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #110B11;
+    
+}
+
+.login h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+    color: #DEE5E5;
+}
+
+.login form {
+    font-size: 20px;
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+
+
+
+
 
 /* Fin Registro */
 
