@@ -48,13 +48,11 @@
 .navbar {
     height: 85px;
     margin-bottom: 5px;
-    /* display: flex; */
 }
 
 .navbarSupportedContent{
     display: flex;
     justify-content: center;
-    /* justify-content: center; */
 
 
 }
@@ -62,7 +60,7 @@
 #namePag{
     font-size: 50px;
     font-family:fantasy;
-    /* justify-content: center; */
+    color: #B0D59F;
 }
 
 #btn_nav{
