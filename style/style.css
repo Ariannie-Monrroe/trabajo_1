@@ -1,5 +1,6 @@
 @import "custom";
 @import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
 /* Para Registro */
 
 * {
@@ -128,34 +129,31 @@
 
 /* Fin Carrusel */
 
-.container-fluid {
+/* .container-fluid {
     background-color: rgb(255, 255, 255);
 }
 
-*/ #cardbox {
-    /* background-color: aqua; */
+#cardbox {
     height: 1000px;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 70px;
-}
+} */
 
 
-.card-img-top {
+/* .card-img-top {
     height: 50%;
-}
+}  */
 
-.me-9 {
+/* .me-9 {
     margin-right: 270px;
-}
+} */
 
 /* Inicio de las card */
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
-
-* {
+/* * {
     font-family: 'Nunito', sans-serif;
     margin: 0;
     padding: 0;
@@ -165,7 +163,7 @@
     text-decoration: none;
     transition: all .2s linear;
     text-transform: capitalize;
-}
+} */
 
 /* html {
     font-size: 62.5%;
@@ -173,22 +171,24 @@
 }  */
 
 
-.containerCards {
+/* .containerCards {
     
-    max-width: 1200px;
+    max-width:1200px;
     margin: 0 auto;
     padding: 3rem 2rem;
 }
 
-
+.product{
+    width:400px;
+}
 
 .containerCards .products-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 2rem;
-}
+} */
 
-.containerCards .products-container .product {
+/* .containerCards .products-container .product {
     text-align: center;
     padding: 3rem 2rem;
     background: #fff;
@@ -204,16 +204,17 @@
 }
 
 .containerCards .products-container .product img {
-    height: 25rem;
-}
+    height: 70%;
+    width: 70%;
+} */
 
-.containerCards .products-container .product:hover img {
+/* .containerCards .products-container .product:hover img {
     transform: scale(.9);
 }
 
 .containerCards .products-container .product h3 {
     padding: .5rem 0;
-    font-size: 2rem;
+    font-size: 25px;
     color: #444;
     
 }
@@ -223,15 +224,21 @@
 }
 
 .containerCards .products-container .product .price {
-    font-size: 2rem;
+    font-size: 25px;
     color: #444;
+} */
+
+#cardb{
+    margin-top:100px;
 }
-/* fin card */
 
+.card {
+    margin-bottom: 30px;
+    border: none;
+    /* border-radius; */
+}
 
-
-
-
-
-
+.card img{
+    height: 350px;
+}
 
