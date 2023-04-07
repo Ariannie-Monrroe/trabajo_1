@@ -250,7 +250,7 @@
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    margin-top:50px;
+    margin-top: 50px;
 }
 
 .cart-header {
@@ -321,4 +321,28 @@
     background-color: #9bbd8b;
     border-color: #69885b;
     color: #fff;
+}
+
+/* footer */
+.footer {
+    background-color: #212529;
+    padding: 20px 0;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.footer-icons {
+    text-align: right;
+}
+
+.footer-icon {
+    display: inline-block;
+    margin-left: 10px;
+    color: #b39898;
+}
+
+.footer-icon:hover {
+    color: #ffc107;
 }
