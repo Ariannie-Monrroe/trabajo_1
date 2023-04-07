@@ -60,7 +60,36 @@
 }
 
 /* Fin Registro */
+/* Inicio de sesion */
+#body_inicioSesion {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #DEE5E5; */
+    
+}
+#body_inicioSesion h1 {
+    color: #DEE5E5;
 
+}
+#body_inicioSesion label {
+    color: #DEE5E5;
+
+}
+#body_inicioSesion a:hover{
+    text-decoration: none;
+    color: #94a89a;
+
+}
+#body_inicioSesion a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+/* Fin inicio de sesion */
 
 /* NavBar */
 
@@ -173,6 +202,7 @@
 
 /* .containerCards {
     
+    max-width: 1920px;
     max-width:1200px;
     margin: 0 auto;
     padding: 3rem 2rem;
