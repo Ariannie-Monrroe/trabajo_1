@@ -67,22 +67,26 @@
     align-items: center;
     justify-content: center;
     /* background: #DEE5E5; */
-    
+
 }
+
 #body_inicioSesion h1 {
     color: #DEE5E5;
 
 }
+
 #body_inicioSesion label {
     color: #DEE5E5;
 
 }
-#body_inicioSesion a:hover{
+
+#body_inicioSesion a:hover {
     text-decoration: none;
     color: #94a89a;
 
 }
-#body_inicioSesion a{
+
+#body_inicioSesion a {
     text-decoration: none;
     color: white;
 
@@ -367,6 +371,51 @@
     text-align: right;
 }
 
+.cart-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* INCIO MI CUENTA */
+
+.contenedorImagen {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    
+    
+
+}
+
+.cardCuenta img {
+    height: 220px;
+    border-radius: 100%;
+    border: solid white 8px;
+
+
+}
+
+.cardCuenta {
+    background-color: #A5D0A8;
+    height: 150px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4%;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+    
+    height: 150px;
+    width: 800px;
+}
+.contenedorInfo{
+    display: flex;
+    justify-content: center;
+}
 .footer-icon {
     display: inline-block;
     margin-left: 10px;
