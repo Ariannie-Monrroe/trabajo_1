@@ -157,7 +157,7 @@
 }
 
 .slide img {
-    height: 65vh;
+    height: 79vh;
 }
 
 /* Fin Carrusel */
@@ -263,7 +263,7 @@
 } */
 
 #cardb {
-    margin-top: 100px;
+    margin-top: 75px;
 }
 
 .card {
@@ -278,36 +278,96 @@
 
 /* Carrito */
 .cart {
-    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
     padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 50px;
 }
 
 .cart-header {
+    text-align: center;
     margin-bottom: 20px;
 }
 
 .cart-items {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .cart-item {
-    display: flex;
-    align-items: center;
+    width: calc(50% - 10px);
     margin-bottom: 20px;
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.cart-item-image {
-    margin-right: 20px;
+.cart-item img {
+    width: 150px;
+    height: 100px;
+    margin-right: 10px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
 .cart-item-details {
     flex: 1;
 }
 
-.cart-total {
+.cart-item-details h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cart-item-details p {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.cart-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 20px;
+}
+
+.cart-footer p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #212529;
+    border-color: #9bbd8b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #9bbd8b;
+    border-color: #69885b;
+    color: #fff;
+}
+
+/* footer */
+.footer {
+    background-color: #212529;
+    padding: 20px 0;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.footer-icons {
     text-align: right;
 }
 
@@ -355,4 +415,13 @@
 .contenedorInfo{
     display: flex;
     justify-content: center;
+}
+.footer-icon {
+    display: inline-block;
+    margin-left: 10px;
+    color: #b39898;
+}
+
+.footer-icon:hover {
+    color: #ffc107;
 }
