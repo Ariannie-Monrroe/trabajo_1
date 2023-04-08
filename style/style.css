@@ -379,43 +379,66 @@
 
 /* INCIO MI CUENTA */
 
-.contenedorImagen {
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-    
-    
-
+.containerDeseos{
+    margin-top: 0%;
+    width: 960px;
+}
+.containerDeseos h2{
+    font-size: 60px;
+}
+.cards {
+    transition: all 0.2s ease-in-out;
 }
 
-.cardCuenta img {
-    height: 220px;
-    border-radius: 100%;
-    border: solid white 8px;
-
-
+.cards:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-3px);
 }
 
-.cardCuenta {
-    background-color: #A5D0A8;
-    height: 150px;
-    width: 800px;
-    display: flex;
-    justify-content: center;
-    border-radius: 4%;
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
 }
-.info{
-    display: flex;
-    justify-content: center;
-    padding-top: 7%;
-    
-    height: 150px;
-    width: 800px;
+
+.card-text {
+    font-size: 0.9rem;
+    color: #999;
 }
-.contenedorInfo{
-    display: flex;
-    justify-content: center;
+
+.btns {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    margin-top: 0.5rem;
 }
+
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.cards-img-top {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+
+/* fin mi cuenta */
 .footer-icon {
     display: inline-block;
     margin-left: 10px;
