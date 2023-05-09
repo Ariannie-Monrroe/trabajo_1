@@ -351,3 +351,14 @@
 .footer-icon:hover {
     color: #ffc107;
 }
+
+/* RELOJ */
+#reloj{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    font-size: 40px;
+    width: 10px;
+    height: 70px; 
+}
+/* Fin RELOJ */
