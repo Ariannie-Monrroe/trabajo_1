@@ -100,6 +100,7 @@
 .navbar {
     height: 90px;
     margin-bottom: 5px;
+    background-color: #212529;
 }
 
 .navbarSupportedContent {
@@ -110,7 +111,7 @@
 #namePag {
     font-size: 50px;
     font-family: fantasy;
-    color: #B0D59F;
+    color: #b0d59f;
     font-family: fantasy;
     /* justify-content: center; */
 }
@@ -162,105 +163,9 @@
 
 /* Fin Carrusel */
 
-/* .container-fluid {
-    background-color: rgb(255, 255, 255);
-}
 
-#cardbox {
-    height: 1000px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 70px;
-} */
-
-
-/* .card-img-top {
-    height: 50%;
-}  */
-
-/* .me-9 {
-    margin-right: 270px;
-} */
 
 /* Inicio de las card */
-
-/* * {
-    font-family: 'Nunito', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    transition: all .2s linear;
-    text-transform: capitalize;
-} */
-
-/* html {
-    font-size: 62.5%;
-    overflow-x: hidden;
-}  */
-
-
-/* .containerCards {
-    
-    max-width: 1920px;
-    max-width:1200px;
-    margin: 0 auto;
-    padding: 3rem 2rem;
-}
-
-.product{
-    width:400px;
-}
-
-.containerCards .products-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 2rem;
-} */
-
-/* .containerCards .products-container .product {
-    text-align: center;
-    padding: 3rem 2rem;
-    background: #fff;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-    outline: .1rem solid #ccc;
-    outline-offset: -1.5rem;
-    cursor: pointer;
-}
-
-.containerCards .products-container .product:hover {
-    outline: .2rem solid #222;
-    outline-offset: 0;
-}
-
-.containerCards .products-container .product img {
-    height: 70%;
-    width: 70%;
-} */
-
-/* .containerCards .products-container .product:hover img {
-    transform: scale(.9);
-}
-
-.containerCards .products-container .product h3 {
-    padding: .5rem 0;
-    font-size: 25px;
-    color: #444;
-    
-}
-
-.containerCards .products-container .product:hover h3 {
-    color: #27ae60;
-}
-
-.containerCards .products-container .product .price {
-    font-size: 25px;
-    color: #444;
-} */
 
 #cardb {
     margin-top: 75px;
@@ -269,7 +174,6 @@
 .card {
     margin-bottom: 30px;
     border: none;
-    /* border-radius; */
 }
 
 .card img {
@@ -379,13 +283,15 @@
 
 /* INCIO MI CUENTA */
 
-.containerDeseos{
+.containerDeseos {
     margin-top: 0%;
     width: 960px;
 }
-.containerDeseos h2{
+
+.containerDeseos h2 {
     font-size: 60px;
 }
+
 .cards {
     transition: all 0.2s ease-in-out;
 }
@@ -448,3 +354,119 @@
 .footer-icon:hover {
     color: #ffc107;
 }
+
+/* RELOJ */
+#reloj {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    font-size: 40px;
+    width: 10px;
+    height: 70px;
+}
+
+/* Fin RELOJ */
+
+/* DARK MODE */
+[data-theme='light'] {
+    --primary: #2a83d6;
+    --background: #ffff;
+    --text: #000;
+
+    /* --navBackground: #fff; */
+}
+
+[data-theme='dark'] {
+    --primary: #b0d59f;
+    --background: #131619;
+    --text: #fff;
+    /* --navBackground: #fff; */
+}
+
+body {
+    color: var(--text);
+    background-color: var(--background);
+}
+
+/* #containerNav{
+    background-color: var(--navBackground);
+}
+
+.navbar{
+    background-color: var(--navBackground);
+}
+
+.navbar-nav {
+    background-color: var(--navBackground);
+} */
+
+/* estilos del slider */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+    border-radius: 12px;
+}
+
+.switch input[type="checkbox"] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #b0d59f;
+    border-radius: 12px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input[type="checkbox"]:checked+.slider {
+    background-color: #426e2d;
+    /* 426e2d */
+}
+
+input[type="checkbox"]:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+/* FIN DARK MODE */
+
+/* API */
+.weather{
+    display: flex;
+    justify-content:flex-start;
+    list-style: none;
+}
+
+#ubicacion{
+    font-size: 15px;
+    padding-left: 82px;
+}
+#temperatura{
+    font-size: 15px;
+    padding-left: 20px;
+}
+/* FIN API */
